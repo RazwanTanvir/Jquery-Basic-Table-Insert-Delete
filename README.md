@@ -1,2 +1,3 @@
 # Jquery-Basic-Table-Insert-Delete
-<a href="https://razwantanvir.github.io/Jquery-Basic-Table-Insert-Delete/jQueryProject.html">Jquery Table- Insert-Delete</a>
+
+<a href="https://razwantanvir.github.io/JqueryTable/">Launch: Jquery Table- Insert-Delete</a>
