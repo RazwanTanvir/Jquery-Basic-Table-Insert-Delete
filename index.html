@@ -3,7 +3,7 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<link rel="stylesheet" href="bootstrap-4.0.0-alpha.6-dist\css\bootstrap.min.css">
+<link rel="stylesheet" href="bootstrap.min.css">
 <title>Add-Delete|jQuery</title>
 <script src="jquery-3.4.1.min.js"></script>
 <script type="text/javascript">
@@ -13,7 +13,7 @@
             var email = $("#email").val();
 			var gender = $("#gender").val();
 			
-            var markup = "<tr><td>" + name + "</td><td>" + email + "</td><td>" + gender + "</td><td> <td><button type='button' class='delete-row btn-danger'>Delete Row</button></td></tr>";
+            var markup = "<tr><td>" + name + "</td><td>" + email + "</td><td>" + gender + "</td><td><button type='button' class='delete-row btn-danger'>Delete Row</button></td></tr>";
             $("table tbody").append(markup);
         });
         
@@ -34,7 +34,7 @@
     });    
 </script>
 </head>
-<body class="col-md-6 ">
+<body class="col-md-8 ">
     <form class="form-inline" style="margin-top:10px">
 		<div class="form-group">
 			<label class="col-sm-2 col-form-label">Name</label>
@@ -44,8 +44,9 @@
 			<label class="col-sm-2 col-form-label">Email</label>
 			<input type="text" id="email" placeholder="Email Address" class="form-control">
 		</div>
-		<div>
-			<select name="gender" id="gender">
+		<div class="form-group " >
+			<label class="col-sm-2 col-form-label">Gender</label>
+			<select name="gender" id="gender" class="form-control">
 			  <option value="Male">Male</option>
 			  <option value="Female">Female</option>
 			  <option value="Others">Others</option>
